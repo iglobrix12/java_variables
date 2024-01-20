@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Timer timer = new Timer();
         String s;
-        s = "s"; // a = "ваш текст"
+        s = "s"; // s = "ваш текст"
         TimerTask task1 = new TimerTask() {
             public void run() {
                 System.out.println(s); // тут выводиться
